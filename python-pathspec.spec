@@ -85,11 +85,14 @@ rm -rf $RPM_BUILD_ROOT
 %if %{with python2}
 %py_install
 
+%{__rm} -r $RPM_BUILD_ROOT%{py_sitescriptdir}/pathspec/tests
 %py_postclean
 %endif
 
 %if %{with python3}
 %py3_install
+
+%{__rm} -r $RPM_BUILD_ROOT%{py3_sitescriptdir}/pathspec/tests
 %endif
 
 %clean
