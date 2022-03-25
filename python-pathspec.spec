@@ -8,7 +8,7 @@ Summary:	Utility library for gitignore style pattern matching of file paths
 Summary(pl.UTF-8):	Biblioteka narzędzioawa do dopasowywania wzorców ścieżek plików w stylu gitignore
 Name:		python-pathspec
 Version:	0.9.0
-Release:	2
+Release:	3
 License:	MPL v2.0
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/pathspec/
