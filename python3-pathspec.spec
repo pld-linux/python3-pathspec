@@ -1,3 +1,4 @@
+# TODO: docs (BR: sphinx-pdg-3 >= 7.2.6)
 #
 # Conditional build:
 %bcond_without	tests	# unit tests
@@ -14,11 +15,13 @@ Source0:	https://pypi.debian.net/pathspec/pathspec-%{version}.tar.gz
 # Source0-md5:	2b26ad1981bfa23748e115f00085624c
 URL:		https://pypi.org/project/pathspec/
 BuildRequires:	python3-build
+BuildRequires:	python3-flit_core >= 3.2
+BuildRequires:	python3-flit_core < 4
 BuildRequires:	python3-installer
-BuildRequires:	python3-modules >= 1:3.5
+BuildRequires:	python3-modules >= 1:3.8
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 2.044
-Requires:	python3-modules >= 1:2.7
+Requires:	python3-modules >= 1:3.8
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
