@@ -6,13 +6,13 @@
 Summary:	Utility library for gitignore style pattern matching of file paths
 Summary(pl.UTF-8):	Biblioteka narzędzioawa do dopasowywania wzorców ścieżek plików w stylu gitignore
 Name:		python3-pathspec
-Version:	1.0.4
+Version:	1.1.1
 Release:	1
 License:	MPL v2.0
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/pathspec/
 Source0:	https://pypi.debian.net/pathspec/pathspec-%{version}.tar.gz
-# Source0-md5:	18d9e6adb72e544b56a88c3e53094b4e
+# Source0-md5:	c762d0a00d6cfc9de003e02d5072b26a
 URL:		https://pypi.org/project/pathspec/
 BuildRequires:	python3-build
 BuildRequires:	python3-flit_core >= 3.2
